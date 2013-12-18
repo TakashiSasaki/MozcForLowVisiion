@@ -57,6 +57,7 @@ class LangBarCallback {
     kHalfAlphanumeric  = 13,
     kFullAlphanumeric  = 14,
     kHalfKatakana      = 15,
+    kTenji             = 16,
 
     // Tool menu
     kProperty          = 20,

@@ -179,6 +179,9 @@ HRESULT LanguageBar::InitLanguageBar(LangBarCallback *text_service) {
       {kImeLangBarItemTypeRadioChecked,
        LangBarCallback::kDirect,
        IDS_DIRECT, IDI_DIRECT_NT, IDI_DIRECT},
+      {kImeLangBarItemTypeDefault,
+       LangBarCallback::kTenji,
+       IDS_TENJI, IDI_TENJI, IDI_TENJI},
       {kImeLangBarItemTypeSeparator, 0, 0, 0, 0},
       {kImeLangBarItemTypeDefault, LangBarCallback::kCancel, IDS_CANCEL, 0, 0},
     };
@@ -189,6 +192,7 @@ HRESULT LanguageBar::InitLanguageBar(LangBarCallback *text_service) {
       return E_OUTOFMEMORY;
     }
 
+	LOG(INFO) << __FILE__ << "LanguageBar::InitLanguageBar" << arraysize(kInputMenu) << "menu items";
     result = input_button_menu->Init(ImeGetResource(), IDS_INPUTMODE,
                                      &kInputMenu[0], arraysize(kInputMenu));
     if (result != S_OK) {

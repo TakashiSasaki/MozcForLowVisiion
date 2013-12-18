@@ -217,6 +217,7 @@ HRESULT ImeLangBarMenuDataArray::Init(
     data.icon_id_for_non_theme_ = menu[i].icon_id_for_non_theme_;
     data.icon_id_for_theme_ = menu[i].icon_id_for_theme_;
     data_.push_back(data);
+	LOG(INFO) << __FILE__ << "ImeLangBarMenuDataArray::Init" << menu[i].menu_id_;
   }
 
   return result;

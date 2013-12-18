@@ -48,6 +48,7 @@
 #define IDS_FULL_ALPHANUMERIC           119
 #define IDS_HALF_KATAKANA               120
 #define IDS_RECONVERSION                121
+#define IDS_TENJI                       122
 
 // Historically, the TSF version of Mozc used the resource ID 102 for showing
 // IMM32 icon.  For this reason, we keep this ID for the product icon.
@@ -70,6 +71,7 @@
 #define IDI_FULL_ALPHANUMERIC_NT        119
 #define IDI_HALF_KATAKANA               120
 #define IDI_HALF_KATAKANA_NT            121
+#define IDI_TENJI                       122
 
 // Next default values for new objects
 //

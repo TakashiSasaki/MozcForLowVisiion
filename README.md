@@ -37,6 +37,8 @@ Quick Start
 6) You may type 'make uninstall; make install' because
    IME DLL (mozc_ja.ime) is locked by IMM (input method manager).
    It depends the state of your 'Language Bar' and the mode of IME.
+   You may need to run cygwin terminal as an administrator
+   to touch /cygdrive/c/windows/system32 directory.
 
 7) Feel free to contact me (<a href="http://twitter.com/TakashiSasaki">@TakashiSasaki</a> on twitter) when you need
    any assistance. Don't hesitate!

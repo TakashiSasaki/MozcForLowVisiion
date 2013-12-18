@@ -12,5 +12,11 @@ src/dictionary/pos_util.pyc
 src/mozc_build_tools/
 src/rewriter/__init__.pyc
 src/rewriter/embedded_dictionary_compiler.pyc
+src/Debug/
+src/win32/ime/RC*
+src/*.sdf
+src/*.suo
+src/*.vcxproj
+src/*.vcxproj.filters
 
 
